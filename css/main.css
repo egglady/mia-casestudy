@@ -213,3 +213,15 @@ body {
   max-height: 100%;
   overflow: hidden;
 }
+
+/** Buttons**/
+
+.button__primary {
+  text-decoration: none;
+  background-color: #222;
+  text-transform: uppercase;
+  color: white;
+  padding: .6rem;
+  font-weight: 700;
+  font-size: .8rem;
+}
