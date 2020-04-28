@@ -204,8 +204,16 @@
   color: black;
 }
 
+.navbar_item a:hover {
+   text-decoration: underline;
+}
+
 .navbar_item-icon {
   font-size: 1.2rem;
+}
+
+.navbar_item-icon a:hover {
+  color: rgba(0, 0, 0, .75);
 }
 
 .navbar_item-primary, .navbar_item-secondary {
@@ -242,11 +250,17 @@
   h2 {
       margin: 0;
   }
-  .hero__link {
+  .hero__link a {
       font-weight: 900;
       font-size: 3.2rem;
       color: rgba(0, 0, 0, .75);
       text-decoration: none;
+      
+  }
+
+  .hero__link a:hover {
+    color: #222;
+   
   }
 
   .hero__description {
@@ -277,14 +291,19 @@
 
 /** Buttons**/
 
-.button__primary {
+.button__primary a {
+  color: white;
   text-decoration: none;
-  background-color: #222;
   text-transform: uppercase;
+  background-color: #222;
   color: white;
   padding: .6rem;
   font-weight: 700;
   font-size: .8rem;
+}
+
+.button__primary a:hover {
+  background-color: rgba(0,0,0,.75);
 }
 
 /**Banner**/
