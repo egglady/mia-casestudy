@@ -238,12 +238,12 @@
   }
 
   .hero__code {
-      max-width: 450px;
+      max-width: 400px;
   }
 
   .hero__title {
   font-weight: 900;
-  font-size: 3.2rem;
+  font-size: 3rem;
   margin: 0;
   }
 
@@ -252,7 +252,7 @@
   }
   .hero__link a {
       font-weight: 900;
-      font-size: 3.2rem;
+      font-size: 3rem;
       color: rgba(0, 0, 0, .75);
       text-decoration: none;
       
@@ -279,11 +279,11 @@
 
   .logo {
   position: absolute;
-  bottom: 0;
+  bottom: -45px;
+  left: -10px;
   color: white;
   font-weight: 900;
   font-size: 12rem;
-  line-height: 9rem;
   width: 100%;
   max-height: 100%;
   overflow: hidden;
