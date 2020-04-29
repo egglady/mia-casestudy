@@ -288,14 +288,15 @@ img {
 .hero {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .hero__figure {
-  flex: 1 1 auto;
+  flex: 0 1 1000px;
 }
 
 .hero__text {
-  flex: 1 0 350px;
+  flex: 1 0 150px;
 }
 
 /** Buttons**/
