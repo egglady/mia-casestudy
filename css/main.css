@@ -195,8 +195,7 @@ img {
   display: flex;
   align-items: center;
   font-size: .8rem;
-  padding: 0 1rem;
-  
+  padding: 0 1rem; 
 }
 
 .navbar_item {
@@ -206,7 +205,7 @@ img {
 
 .navbar_item a {
   text-decoration: none;
-  color: black;
+  color:#222;
 }
 
 .navbar_item a:hover {
@@ -292,7 +291,7 @@ img {
 }
 
 .hero__figure {
-  flex: 0 1 1000px;
+  flex: 0 1 900px;
 }
 
 .hero__text {
@@ -336,4 +335,87 @@ img {
 
 .banner__link {
   color: #444;
+}
+
+/** Footer **/
+
+.footer__code {
+  font-family: 'Work Sans', sans serif;
+  padding-left: 100px;
+  
+}
+
+.footer__navbar {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid black;
+  max-width: 75rem;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.contact__list {
+  font-weight: 300;
+  line-height: 1.4rem;
+  padding: 0;
+  margin: 0;
+
+}
+  
+.contact__list-wordmark {
+  font-weight: 700;
+}
+
+.contact__list-item a {
+  text-decoration: none;
+  color: #222;
+}
+
+.contact__list-item a:hover {
+  text-decoration: underline;
+}
+
+.nav__list {
+  padding-right: 5rem;
+}
+
+.request__list {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: .8rem;
+  padding: 0;
+}
+
+.request__list-item {
+  padding: .3rem;
+}
+
+.request__list a:hover {
+  text-decoration: underline;
+}
+
+.request__list a, .social__list a {
+  color: #222;
+  text-decoration: none;
+}
+
+.social__list {
+  display: flex;
+  padding: 0;
+}
+
+.social__list-item {
+  padding: .7rem;
+}
+
+.social__list a:hover {
+  color: rgba(0, 0, 0, .75);
+}
+
+.tax-exempt{
+  font-weight: 300;
+  font-size: .7rem;
 }
