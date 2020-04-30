@@ -350,6 +350,7 @@ img {
   justify-content: space-between;
   border-top: 2px solid black;
   max-width: 75rem;
+  flex-wrap: wrap;
 }
 
 footer ul {
@@ -419,3 +420,29 @@ footer ul {
   font-weight: 300;
   font-size: .7rem;
 }
+
+
+/**Post Main**/
+
+.post_main {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Work Sans", sans-serif;
+  max-width: 75rem;
+}
+
+.post_item {
+  flex: 1 1 300px;
+  padding: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.item-heading {
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+
+/** Post Secondary**/
