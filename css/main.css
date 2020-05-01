@@ -294,6 +294,7 @@ img {
   grid-template-columns: 2fr 1fr;
   grid-gap: 2rem;
   box-sizing: border-box;
+  max-width: 80rem;
 }
 
 @media (max-width: 65rem) {
@@ -431,12 +432,22 @@ footer ul {
 /**Post Main**/
 
 .post_main {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
   font-family: "Work Sans", sans-serif;
-  max-width: 75rem;
+  max-width: 80rem;
 }
 
+
+.item-heading {
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+
+/**
 .post_item {
   flex: 1 1 300px;
   padding: 1.5rem;
@@ -444,11 +455,8 @@ footer ul {
   line-height: 1.5rem;
 }
 
-.item-heading {
-  font-weight: 900;
-  font-size: 1.5rem;
-  margin-top: 0;
-}
+
+**/
 
 
 /** Post Secondary**/
