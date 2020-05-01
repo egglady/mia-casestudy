@@ -269,9 +269,14 @@ img {
 
   figure {
     position: relative;
-    display: inline-block;
+    margin: 0;
   }
 
+  .hero img {
+    display: block;
+    max-width: 100%;
+  }
+  
   .logo {
   position: absolute;
   bottom: -45px;
@@ -285,18 +290,19 @@ img {
 }
 
 .hero {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 2rem;
+  box-sizing: border-box;
 }
 
-.hero__figure {
-  flex: 0 1 900px;
+@media (max-width: 65rem) {
+  .hero {
+  border: 1rem solid red;
+  grid-template-columns: 1fr;
+  }
 }
 
-.hero__text {
-  flex: 1 0 150px;
-}
 
 /** Buttons**/
 
