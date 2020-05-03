@@ -9,24 +9,37 @@
         <script src="https://kit.fontawesome.com/3f10508ff5.js" crossorigin="anonymous"></script>
     </head>
 
-    <body>
-        <h1>Web Components Go Here</h1>
+<body>
+    <header class="sidebar">
+        <h2>Minneapolis Institute of Art</h2>
+        <ul>
+            <li>Typography</li>
+            <li><a href="index.html#component_hero-heading">Hero Components</a></li>
+            <li><a href="index.html#component_hero-all">Hero, Altogether</a></li>
+            <li><a href="index.html#component_chatbot">Chatbot</a></li>
+            <li><a href="index.html#component_button">Button</a></li>
+            <li><a href="index.html#component_banner">Banner</a></li>
+            <li><a href="index.html#component_main">Main Posts</a></li>
+            <li><a href="index.html#component_header">Header</a></li>
+            <li><a href="index.html#component_footer">Footer</a></li>
+        </ul>
+    </header>
 
-        <h2>Typography Defaults</h2>
+    <div class="container">
+        <h1>Web Design System</h1>
+
         
         <article class="component">
-            <h3 class="component_hero">Hero Heading</h3>
+            <h3 id="component_hero-heading">Hero Heading</h3>
             <img src="img/home/hero/hero_title.png" alt="hero title Mia Is Temporarily Closed">
             <div class="hero__code">
                 <h1 class="hero__title">Mia is temporarily closed</h1>
                 <h2 class="hero__link"><a href="#">Learn more here</a></h2>
             </div>
         </article>  
-        
-        <br>
 
         <article class="component">
-            <h3 class="component-hero">Hero Description</h3>
+            <h3 class="component_hero">Hero Description</h3>
             <img src="img/home//hero/hero_description.png" alt="hero content">
             <div class="hero__code">
                 <p class="hero__description">
@@ -35,21 +48,8 @@
             </div>     
         </article>
 
-        <br>
-
-        <article class="component">
-            <h3>Chatbot</h3>
-            <img src="img/home/chatbot.png">
-            <div class="chatbot_code">
-                <p class="chatbot"><a href="#"><i class="far fa-comment"></i> Ask Mia</a></p>
-            </div>
-
-        </article>
-    
-
         <article class="component">
             <h3 class="component_hero">Hero Photo</h3>
-            <p>Found Mia's current banner on their collections site, image is in the public domain :)</p>
             <img src="img/home/hero/hero_photo.png" alt="hero photo">
             <div class="hero__code">
                 <figure>
@@ -60,20 +60,8 @@
             </div>
         </article>
 
-        <br>
-
         <article class="component">
-            <h3 class="component_hero">Button Primary</h3>
-            <img src="img/home/hero/button.png" alt="button primary">
-            <div class="hero__code">
-                <p class="button__primary"><a href="#">Donate Here</a></p>
-            </div>
-        </article>
-
-        <br>
-
-        <article class="component">
-            <h3 class="component_hero">Hero Altogether, with responsiveness</h3>
+            <h3 id="component_hero-all">Hero Altogether, with responsiveness</h3>
             <div class="hero">
                 <div class="hero__figure">
                     <figure>
@@ -95,14 +83,26 @@
                     <p class="button__primary"><a href="#">Donate Here</a></p>
                 </div> <!--end hero text div-->
             </div> <!--end hero div-->
-            
-
         </article>
 
-        <br>
+        <article class="component">
+            <h3 id="component_chatbot">Chatbot</h3>
+            <img src="img/home/chatbot.png">
+            <div class="chatbot_code">
+                <p class="chatbot"><a href="#"><i class="far fa-comment"></i> Ask Mia</a></p>
+            </div>
+        </article>
 
         <article class="component">
-            <h3 class="component_hero">Banner</h3>
+            <h3 id="component_button">Button Primary</h3>
+            <img src="img/home/hero/button.png" alt="button primary">
+            <div class="hero__code">
+                <p class="button__primary"><a href="#">Donate Here</a></p>
+            </div>
+        </article>
+
+        <article class="component">
+            <h3 id="component_banner">Banner</h3>
             <img src="img/home/banner/banner.png">
             <div class="banner__code">
                 <div class="banner">
@@ -112,14 +112,12 @@
             </div>
         </article>
 
-        <br>
-
         <article class="component"> 
-            <h3 class="component_main">Main Posts</h3>
+            <h3 id="component_main">Main Posts</h3>
             <img src="img/home/posts/post-main.png" alt="screenshot">
             
-            <div class="post_main">
-                <div class="post_item">
+            <div class="main__code">
+                <div class="main_item">
                     <a href="#">
                         <img src="../img/olivetrees3x2.jpg" alt="painting of Olive Trees by Vincent Van Gogh">
 
@@ -127,7 +125,7 @@
                         <p>Explore Mia's art collection from the comforts of your home. You'll find fascinating art stories and podcasts, 360-degree images and zoom views of the collection, and more to spark and nurture your creativity.</p>
                     </a>
                 </div>
-                <div class="post_item">
+                <div class="main_item">
                     <a href="#">
                         <img src="../img/pinkbluepainting.jpg" alt="pink and blue abstract painting">
                         
@@ -135,7 +133,7 @@
                         <p>With a variety of art-making ideas, fun activities, and learning resources, you can engage with Mia from wherever you are.</p>
                     </a>
                 </div>
-                <div class="post_item">
+                <div class="main_item">
                     <a href="#">
                         <img src="../img/laughingpeople.jpg" alt="three people laughing together">
                         
@@ -143,7 +141,7 @@
                         <p>Contributions from members provide essential support to Mia and a year of valuable benefits to you! Gift processing continues while the museum is closed to the public. Join My Mia or renew your membership today.</p>
                     </a>
                 </div>
-                <div class="post_item">
+                <div class="main_item">
                     <h3 class="item_heading-line"><a href="#">Plan Your Visit</a></h3>
                     <p>In consideration of the health and welfare of visitors, volunteers, and staff, Mia is temporarily closed to the public. <a href="#" class="link-blue">Learn more here</a>.</p>
 
@@ -166,7 +164,7 @@
                         <li class="link-heavy"><a href="#" class="link-heavy">FAQS</a></li>
                     </ul>
                 </div>
-                <div class="post_item">
+                <div class="main_item">
                     <h3 class="item_heading-line">Upcoming Virtual Events</h3>
                     <div class="events">
                         <div class="events-list">
@@ -197,7 +195,7 @@
                     <p class="link-heavy"><a href="#">View Calendar</a></p>
         
                 </div> <!--end div post item Upcoming Virtual Events-->
-                <div class="post_item">
+                <div class="main_item">
                     <h3 class="item_heading-line">Blog</h3>
 
                     <div class="blog-list">
@@ -235,9 +233,8 @@
             </div> <!--end div post main -->
         </article>
 
-
         <article class="component">
-            <h3 class="component_header">Header</h3>
+            <h3 id="component_header">Header</h3>
             <img src="img/home/header/header.png">
         
                 
@@ -262,7 +259,7 @@
         </article>   
         
         <article class="component">
-            <h3 class="component_footer">Footer</h3>
+            <h3 id="component_footer">Footer</h3>
             <img src ="img/home/footer/footer.png">
 
             <div class="footer__code">
@@ -299,6 +296,6 @@
             </div>
         </article>
 
-
+    </div>
 </body>
 </html>
