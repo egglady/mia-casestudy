@@ -527,8 +527,6 @@ footer ul {
 
 /** Chatbot **/
 
-.chatbot {
-}
 
 .chatbot a {
   font-family: "Work Sans", sans serif;
@@ -540,8 +538,7 @@ footer ul {
   text-decoration: none;
   letter-spacing: -1px;
   box-shadow: 0 0 10px 0 rgba(0,0,0, .7);
-  position: fixed;
+  position: sticky;
   top: 200px;
   left: 1200px;
-  
 }
