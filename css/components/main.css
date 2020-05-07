@@ -165,7 +165,9 @@
 }
 
 body {
-  max-width: 80rem;
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  grid-gap: 1rem;
   box-sizing: border-box;
   font-family: 'Work Sans', sans serif;
 }
