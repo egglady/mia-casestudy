@@ -233,7 +233,7 @@ left: 1200px;
 .banner {
 background-color: #e9e8e8;
 padding: 1.2rem;
-margin: 4rem 0 .5rem 0;
+margin: 5rem 0 .5rem 0;
 }
 
 .banner__title {
@@ -282,7 +282,7 @@ margin: .5rem 0;
 
 .link-heavy {
 font-weight: 700;
-font-size: .8rem;
+font-size: .9rem;
 text-transform: uppercase;
 color: #222;
 }
@@ -295,9 +295,13 @@ text-decoration: underline;
 color: #1261C7 !important;
 }
 
-.main_item ul {
-list-style-type: none;
-line-height: 1.5rem;
+.main ul {
+  list-style-type: none;
+  line-height: 1.5rem;
+}
+
+.link_list {
+  padding-left: 0;
 }
 
 
