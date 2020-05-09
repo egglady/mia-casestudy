@@ -148,48 +148,48 @@ h3 {
 }
 
 .hero__link a:hover {
-color: #222;
+  color: #222;
 }
 
 .hero__description {
-font-weight: 300;
-font-size: 1.5rem;
-line-height: 1.5rem;
-padding: 2rem 0 1rem 0;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 2rem 0 1rem 0;
 }
 
 figure {
-position: relative;
-margin: 0;
+  position: relative;
+  margin: 0;
 }
 
 .hero img {
-display: block;
-max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 .logo {
-position: absolute;
-bottom: -45px;
-left: -10px;
-color: white;
-font-weight: 900;
-font-size: 12rem;
-width: 100%;
-max-height: 100%;
-overflow: hidden;
+  position: absolute;
+  bottom: -45px;
+  left: -10px;
+  color: white;
+  font-weight: 900;
+  font-size: 12rem;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 .hero {
-display: grid;
-grid-template-columns: 2fr 1fr;
-grid-gap: 2rem;
-box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 2rem;
+  box-sizing: border-box;
 }
 
 @media (max-width: 65rem) {
 .hero {
-grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
 }
 }
 
@@ -222,9 +222,14 @@ border-radius: 5px;
 text-decoration: none;
 letter-spacing: -1px;
 box-shadow: 0 0 10px 0 rgba(0,0,0, .7);
-position: sticky;
-top: 200px;
-left: 1200px;
+}
+
+.chatbot {
+position: fixed;
+top: 82vh;
+left: 88vw;
+z-index: 1;
+
 }
 
 
@@ -233,7 +238,7 @@ left: 1200px;
 .banner {
 background-color: #e9e8e8;
 padding: 1.2rem;
-margin: 5rem 0 .5rem 0;
+margin: 3rem 0 .5rem 0;
 }
 
 .banner__title {
