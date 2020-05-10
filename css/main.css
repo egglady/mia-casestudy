@@ -217,11 +217,12 @@ figure {
 
 .logo {
   position: absolute;
-  bottom: -45px;
-  left: -10px;
+  bottom: -32px;
+  left: -12px;
   color: white;
   font-weight: 900;
   font-size: 12rem;
+  line-height: 12rem;
   width: 100%;
   max-height: 100%;
   overflow: hidden;
