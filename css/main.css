@@ -166,6 +166,7 @@ h5 {
   color: var(--white);
   margin: .5rem 0;
   padding: 1.2rem;
+  font-weight: 400;
   text-align: center;
   position: sticky;
   top: 0;
@@ -370,8 +371,8 @@ figure {
 .blog_item {
   display: grid;
   grid-template-columns: 90px 1fr;
-  grid-column-gap: 1rem;
-  padding: .25rem;
+  grid-column-gap: 1.0rem;
+  padding: .3rem;
 }
 
 .blog_item a:hover {
