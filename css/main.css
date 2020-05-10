@@ -269,10 +269,11 @@ figure {
 }
 
 .chatbot {
-  position: fixed;
+  position: sticky;
   top: 82vh;
   left: 88vw;
   z-index: 1;
+  width: 150px;
 }
 
 
