@@ -17,6 +17,8 @@
   box-sizing: border-box;
 }
 
+/** Global **/
+
 body {
   font-family: var(--font-sans-serif);
   color: var(--dark-grey);
@@ -37,7 +39,7 @@ img {
   margin: auto;
 }
 
-/**Typography**/
+/** Typography **/
 h1, h2 {
   margin: 0;
 }
@@ -76,12 +78,12 @@ h5 {
   line-height: 1.25rem;
 }
 
-.navbar_item-secondary, .request__list {
+.nav_item-secondary, .request__list {
   font-size: .8rem;
   font-weight: 300;
 } 
 
-/** Header styles **/
+/** Header **/
 .page-header {
   display: grid;
   grid-template-columns: 430px 1fr;
@@ -122,46 +124,46 @@ h5 {
   padding: 0;
 }
 
-.navbar_item {
+.nav_item {
   display: inline;
   margin: .5rem;
 }
 
-.navbar_item-primary {
+.nav_item-primary {
   font-size: .8rem;
   font-weight: 800;
 }
 
-.navbar_item a {
+.nav_item a {
   text-decoration: none;
   color:#222;
 }
 
-.navbar_item a:hover {
+.nav_item a:hover {
   text-decoration: underline;
 }
 
-.navbar_item-icon {
+.nav_item-icon {
   font-size: 1.1rem;
 }
 
-.navbar_item-icon a:hover {
+.nav_item-icon a:hover {
   color: rgba(0, 0, 0, .75);
 }
 
 @media (min-width: 65rem) {
-.navbar_item-smaller {
+.nav_item-smaller {
   display: none;
 }
 }
 
 @media (max-width: 65rem) {
-  .navbar_item-secondary {
+  .nav_item-secondary {
     display: none;
 }
 }
 
-/** Alert styles **/
+/** Alert **/
 .alert {
   background-color: var(--pandemic-red);
   color: var(--white);
@@ -186,22 +188,22 @@ h5 {
   text-decoration: underline; 
 }
 
-.alert__text-item {
+.alert_text-item {
   display: inline;
   padding: 2rem;
 }
 
 /**Hero**/
-.hero__link a {
+.hero_link a {
   color: rgba(0, 0, 0, .75);
   text-decoration: none;
 }
 
-.hero__link a:hover {
+.hero_link a:hover {
   color: #222;
 }
 
-.hero__description {
+.hero_description {
   font-size: 1.4rem;
   line-height: 2rem;
   padding: 2rem 0 1rem 0;
@@ -244,8 +246,8 @@ figure {
 }
 
 
-/** Buttons **/
-.button__primary a {
+/** Button **/
+.button_primary a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -255,7 +257,7 @@ figure {
   font-size: .8rem;
 }
 
-.button__primary a:hover {
+.button_primary a:hover {
   background-color: rgba(0,0,0,.75);
 }
 
@@ -280,22 +282,22 @@ figure {
 }
 
 
-/**Banner**/
+/** Banner **/
 .banner {
   background-color: #e9e8e8;
   padding: 1.2rem;
   margin: 3rem 0 .5rem 0;
 }
 
-.banner__title {
+.banner_title {
   display: inline;
 }
 
-.banner__text {
+.banner_text {
   display: inline;
 }
 
-.signup__link {
+.signup_link {
   color: var(--mid-grey);
 }
 
@@ -317,7 +319,7 @@ figure {
   margin: .8rem 0;
 }
 
-.item_heading-line {
+.item_heading-lined {
   border-top: 2px solid black;
   margin: .8rem 0;
 }
@@ -346,7 +348,7 @@ figure {
   padding-left: 0;
 }
 
-/**Upcoming Virtual Events and Blog**/
+/** in Main: Upcoming Virtual Events and Blog **/
 .events-list {
   display: grid;
   grid-row-gap: .5rem;
