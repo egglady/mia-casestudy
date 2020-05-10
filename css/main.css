@@ -5,6 +5,7 @@
   --dark-grey: #222;
   --white: #fff;
   --blue: ##1261C7;
+  --mid-grey: #444;
   --light-grey: #e9e8e8;
   --pandemic-red: #ff0008;
 
@@ -295,7 +296,7 @@ figure {
 }
 
 .signup__link {
-  color: #444;
+  color: var(--mid-grey);
 }
 
 /**Main**/
@@ -313,12 +314,12 @@ figure {
 }
 
 .item_heading {
-  margin: .5rem 0;
+  margin: .8rem 0;
 }
 
 .item_heading-line {
   border-top: 2px solid black;
-  margin: .5rem 0;
+  margin: .8rem 0;
 }
 
 .link-heavy {
@@ -348,12 +349,12 @@ figure {
 /**Upcoming Virtual Events and Blog**/
 .events-list {
   display: grid;
-  grid-row-gap: 1rem;
+  grid-row-gap: .5rem;
 }
 
 .event_item {
   background-color: #e9e8e8;
-  padding: 1rem;
+  padding: .8rem;
 }
 
 .event_item p {
@@ -361,7 +362,7 @@ figure {
 }
 
 .event_item:hover {
-  background-color: #333;
+  background-color: var(--mid-grey);
 }
 
 .event_item a:hover {
