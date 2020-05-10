@@ -213,8 +213,6 @@ img {
 }
 
 /** Header styles **/
-
-
 .page-header {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -351,20 +349,20 @@ footer ul {
 /**Hero**/
 
 .hero__title {
-font-weight: 900;
-font-size: 3rem;
-margin: 0;
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0;
 }
 
 h2 {
-    margin: 0;
+   margin: 0;
 }
 
 .hero__link a {
-    font-weight: 900;
-    font-size: 3rem;
-    color: rgba(0, 0, 0, .75);
-    text-decoration: none;
+  font-weight: 900;
+  font-size: 3rem;
+  color: rgba(0, 0, 0, .75);
+  text-decoration: none;
 }
 
 .hero__link a:hover {
@@ -388,33 +386,32 @@ figure {
 }
 
 .logo {
-position: absolute;
-bottom: -45px;
-left: -10px;
-color: white;
-font-weight: 900;
-font-size: 12rem;
-width: 100%;
-max-height: 100%;
-overflow: hidden;
+  position: absolute;
+  bottom: -45px;
+  left: -10px;
+  color: white;
+  font-weight: 900;
+  font-size: 12rem;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 .hero {
-display: grid;
-grid-template-columns: 2fr 1fr;
-grid-gap: 2rem;
-box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 2rem;
+  box-sizing: border-box;
 }
 
 @media (max-width: 65rem) {
 .hero {
-grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
 }
 }
 
 
-/** Buttons **/
-
+/** Button **/
 .button__primary a {
   color: white;
   text-decoration: none;
@@ -430,9 +427,7 @@ grid-template-columns: 1fr;
 }
 
 
-
 /** Chatbot **/
-
 .chatbot a {
   font-size: 1.5rem;
   background-color: black;
@@ -449,7 +444,6 @@ grid-template-columns: 1fr;
 
 
 /**Banner**/
-
 .banner {
   background-color: #e9e8e8;
   padding: 1rem;
@@ -470,8 +464,7 @@ grid-template-columns: 1fr;
 }
 
 
-/**Post Main**/
-
+/**Main**/
 .main__code {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -519,7 +512,6 @@ grid-template-columns: 1fr;
 
 
 /**Upcoming Virtual Events and Blog**/
-
 .events-list {
   display: grid;
   grid-row-gap: 1rem;

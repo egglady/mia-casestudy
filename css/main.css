@@ -78,7 +78,7 @@ h5 {
   line-height: 1.25rem;
 }
 
-.nav_item-secondary, .request__list {
+.nav_item-secondary, .request_list {
   font-size: .8rem;
   font-weight: 300;
 } 
@@ -349,7 +349,7 @@ figure {
 }
 
 /** in Main: Upcoming Virtual Events and Blog **/
-.events-list {
+.event_list {
   display: grid;
   grid-row-gap: .5rem;
 }
@@ -403,60 +403,60 @@ footer ul {
   list-style-type: none;
 }
 
-.contact__list {
+.contact_list {
   padding: 0;
   margin: 0;
 }
 
-.contact__list-wordmark {
+.contact_list-wordmark {
   font-weight: 800;
 }
 
-.contact__list-item a {
+.contact_list-item a {
   text-decoration: none;
   color: #222;
 }
 
-.contact__list-item a:hover {
+.contact_list-item a:hover {
   text-decoration: underline;
 }
 
-.nav__list {
+.nav_list {
   padding-right: 5rem;
   margin: 0;
 }
 
-.request__list {
+.request_list {
   display: flex;
   text-transform: uppercase;
   padding: 0;
   margin: .5rem 0 1rem 0;
 }
 
-.request__list-item {
+.request_list-item {
   padding: .3rem;
 }
 
-.request__list a:hover {
+.request_list a:hover {
   text-decoration: underline;
 }
 
-.request__list a, .social__list a {
+.request_list a, .social_list a {
   color: #222;
   text-decoration: none;
 }
 
-.social__list {
+.social_list {
   display: flex;
   padding: 0;
   margin-bottom: 1rem;
 }
 
-.social__list-item {
+.social_list-item {
   padding: .7rem;
 }
 
-.social__list a:hover {
+.social_list a:hover {
   color: rgba(0, 0, 0, .75);
 }
 
