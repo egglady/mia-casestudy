@@ -1,6 +1,6 @@
 /** CSS for Components**/
 
-/** Work Sans font stuffs**/
+/** Work Sans font information**/
 /* vietnamese */
 @font-face {
   font-family: 'Work Sans';
@@ -170,6 +170,10 @@ body {
   grid-gap: 1rem;
   box-sizing: border-box;
   font-family: 'Work Sans', sans serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  letter-spacing: -.02rem;
 }
 
 img {
@@ -181,6 +185,8 @@ img {
   border: 1px solid black;
 }
 
+
+/** Sidebar **/
 .sidebar {
   max-width: 20rem;
   z-index: 100;
@@ -212,18 +218,20 @@ img {
   text-decoration: none;
 }
 
-/** Header styles **/
+
+/** Header **/
+
 .page-header {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  padding-left: 5rem;
+  grid-template-columns: 430px 1fr;
+  grid-gap: 1rem;
   justify-content: center;
-  margin: 0;
-}
+  margin: 3rem 0 .5rem 0;
+} 
 
 .page-header_wordmark {
-  font-weight: 700;
-  font-size: 1.9rem;
+  font-weight: 800;
+  font-size: 2rem;
 }
 
 .navbar {
@@ -269,12 +277,10 @@ img {
 
 
 /** Footer **/
-
-
-.footer__navbar {
+.footer_navbar {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 40%;
+  grid-gap: 33%;
   justify-content: space-between;
   border-top: 2px solid black;
 }
@@ -283,31 +289,31 @@ footer ul {
   list-style-type: none;
 }
 
-.contact__list {
+.contact_list {
   font-weight: 300;
   line-height: 1.4rem;
   padding: 0;
   margin: 0;
 }
   
-.contact__list-wordmark {
+.contact_list-wordmark {
   font-weight: 700;
 }
 
-.contact__list-item a {
+.contact_list-item a {
   text-decoration: none;
   color: #222;
 }
 
-.contact__list-item a:hover {
+.contact_list-item a:hover {
   text-decoration: underline;
 }
 
-.nav__list {
+.nav_list {
   padding-right: 5rem;
 }
 
-.request__list {
+.request_list {
   display: flex;
   text-transform: uppercase;
   font-weight: 300;
@@ -315,29 +321,29 @@ footer ul {
   padding: 0;
 }
 
-.request__list-item {
+.request_list-item {
   padding: .3rem;
 }
 
-.request__list a:hover {
+.request_list a:hover {
   text-decoration: underline;
 }
 
-.request__list a, .social__list a {
+.request_list a, .social_list a {
   color: #222;
   text-decoration: none;
 }
 
-.social__list {
+.social_list {
   display: flex;
   padding: 0;
 }
 
-.social__list-item {
+.social_list-item {
   padding: .7rem;
 }
 
-.social__list a:hover {
+.social_list a:hover {
   color: rgba(0, 0, 0, .75);
 }
 
@@ -347,10 +353,10 @@ footer ul {
 }
 
 /**Hero**/
-
-.hero__title {
+.hero_title {
   font-weight: 900;
   font-size: 3rem;
+  line-height: 3rem;
   margin: 0;
 }
 
@@ -358,18 +364,19 @@ h2 {
    margin: 0;
 }
 
-.hero__link a {
+.hero_link a {
   font-weight: 900;
   font-size: 3rem;
+  line-height: 3rem;
   color: rgba(0, 0, 0, .75);
   text-decoration: none;
 }
 
-.hero__link a:hover {
+.hero_link a:hover {
   color: #222;
 }
 
-.hero__description {
+.hero_description {
   font-weight: 300;
   font-size: 1.5rem;
   line-height: 1.8rem;
@@ -387,11 +394,12 @@ figure {
 
 .logo {
   position: absolute;
-  bottom: -45px;
-  left: -10px;
+  bottom: -26px;
+  left: -12px;
   color: white;
   font-weight: 900;
   font-size: 12rem;
+  line-height: 12rem;
   width: 100%;
   max-height: 100%;
   overflow: hidden;
@@ -412,7 +420,7 @@ figure {
 
 
 /** Button **/
-.button__primary a {
+.button_primary a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -422,7 +430,7 @@ figure {
   font-size: .8rem;
 }
 
-.button__primary a:hover {
+.button_primary a:hover {
   background-color: rgba(0,0,0,.75);
 }
 
@@ -430,6 +438,7 @@ figure {
 /** Chatbot **/
 .chatbot a {
   font-size: 1.5rem;
+  font-weight: 400;
   background-color: black;
   color: white;
   padding: .5rem .8rem;
@@ -446,22 +455,26 @@ figure {
 /**Banner**/
 .banner {
   background-color: #e9e8e8;
-  padding: 1rem;
+  padding: 1.2rem;
 }
 
-.banner__title {
+.banner_title {
   display: inline;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 0;
 }
 
-.banner__text {
+.banner_text {
   display: inline;
   font-weight: 300;
+  margin: 0;
 }
 
-.banner__link {
+.signup_link {
   color: #444;
 }
+
 
 
 /**Main**/
@@ -481,19 +494,17 @@ figure {
 .item_heading {
   font-weight: 900;
   font-size: 1.5rem;
-  margin-top: 0;
 }
 
 .item_heading-line {
   font-weight: 900;
   font-size: 1.5rem;
   border-top: 2px solid black;
-  margin-top: 0;
 }
 
 .link-heavy {
   font-weight: 700;
-  font-size: .8rem;
+  font-size: .9rem;
   text-transform: uppercase;
   color: #222;
 }
@@ -512,15 +523,15 @@ figure {
 
 
 /**Upcoming Virtual Events and Blog**/
-.events-list {
+.event-list {
   display: grid;
-  grid-row-gap: 1rem;
+  grid-row-gap: .5rem;
   font-size: .8rem;
 }
 
 .event_item {
   background-color: #e9e8e8;
-  padding: 1rem;
+  padding: .8rem;
 }
 
 .event_item:hover {
@@ -550,12 +561,12 @@ figure {
 
 .blog_item a:hover {
   text-decoration: underline;
-
 }
 
-.event_item h4 {
+.event_title {
   margin: 0;
   font-weight: 700;
+  font-size: .8rem;
 }
 
 
