@@ -1,13 +1,20 @@
 # Mia Case Study
 
-Case Study of the Minneapolis Institute of Art's Homepage
+A Design System Study
 
-This is a case study as part of the Web Development Course at the Minneapolis College of Art and Design. 
+This is a case study for the the Web Development course at the Minneapolis College of Art and Design. 
 
-Using the Minneapolis Instutite of Art's homepage, I have compiled a library of components and then reconstructed the homepage 's visual design.
+In this case study, I use the Minneapolis Instutite of Art's homepage to compiled a library of components and then reconstructed the homepage's visual design.
 
-Source: https://new.artsmia.org/
+Initial Design Study: https://github.com/egglady/mia-casestudy/blob/master/assets/Mia%20Web%20Design%20Study.png
+
+Component Library: https://egglady.github.io/mia-casestudy/components
+
+Homepage Recreation: https://egglady.github.io/mia-casestudy/
+
 
 ## Author
 
-Sorcha Douglas
+Project Code: Sorcha Douglas
+
+Source Design: https://new.artsmia.org/
